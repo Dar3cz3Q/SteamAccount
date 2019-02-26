@@ -245,11 +245,9 @@ function resultssuccess(dataplayer) {
 					dataType: "JSON",
 					success: function (datagames) {
 						resultsuccess(datagames);
-						console.log(datagames);
 					},
 					error: function (datagames) {
 						resultserror(datagames);
-						console.log(datagames);
 					}
 				});
 

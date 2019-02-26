@@ -1,6 +1,6 @@
 <?php
 	$userid = $_GET['user'];
-	$secret_keys = require_once "keys.php";
+	$secret_keys = require_once "secrets/keys.php";
 	$url = "https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=$secret_keys[0]&steamids=$userid&format=json";
 
 	$ch = curl_init($url);

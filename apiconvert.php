@@ -1,6 +1,6 @@
 <?php
 	$customurl = $_GET['customurl'];
-	$secret_keys = require_once "keys.php";
+	$secret_keys = require_once "secrets/keys.php";
 	$url = "https://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/?key=$secret_keys[0]&vanityurl=$customurl";
 
 	$ch = curl_init($url);

@@ -1,6 +1,6 @@
 <?php
 	$userid = $_GET['user'];
-	$secret_keys = require_once "keys.php";
+	$secret_keys = require_once "secrets/keys.php";
 	$url = "https://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v0001/?key=$secret_keys[0]&steamid=$userid&format=json";
 
 	$ch = curl_init($url);
