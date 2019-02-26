@@ -1,3 +1,0 @@
-<?php
-	return ["905101F41282D3E9CDBF47BE3D793B2F", "6Ld8JIUUAAAAAIdBU3qZE-vpzdb_n807Mmokbtfe"];
-?>
