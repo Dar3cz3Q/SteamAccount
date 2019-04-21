@@ -82,7 +82,7 @@ body {
 }
 .nav_info {
 	width: 100%;
-	height: 750px;
+	min-height: 750px;
 	text-align: center;
 	overflow: hidden;
 	position: relative;
